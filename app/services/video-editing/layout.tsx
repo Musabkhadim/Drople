@@ -1,0 +1,47 @@
+import React from 'react';
+
+export const metadata = {
+  title: "Professional Video Editing Services | Drople Digital Agency",
+  description:
+    "High-quality video editing services for YouTube, social media, ads, and businesses. We create engaging, performance-driven videos that convert.",
+  keywords: [
+    "video editing services",
+    "professional video editor",
+    "video editing agency",
+    "business video editing",
+    "marketing video editing",
+    "promotional video editing",
+    "documentary video editing",
+    "short documentary editing",
+    "professional documentary editor",
+    "storytelling video editing",
+    "social media video editing",
+    "YouTube video editing",
+    "short form video editing",
+    "reels and shorts editing",
+    "CapCut video editor",
+    "CapCut professional editor",
+    "Adobe Premiere Pro editor",
+    "After Effects video editor",
+    "DaVinci Resolve editor",
+    "CapCut reels editing",
+    "short form video editing CapCut",
+    "professional video editing tools",
+    "islamabad video editor",
+    "video editor Pakistan",
+    "video editing services Pakistan",
+    "Rawalpindi video editor",
+    "video editor near me",
+  ],
+  openGraph: {
+    title: "Professional Video Editing Services | Drople",
+    description:
+      "Creative video editing for brands, businesses, and content creators. Shorts, reels, ads, and YouTube videos optimized for growth.",
+    url: "https://drople.site/video-editing-services",
+    type: "website",
+  },
+};
+
+export default function Layout({ children }: { children: React.ReactNode }) {
+  return <>{children}</>;
+}

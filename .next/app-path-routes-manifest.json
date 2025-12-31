@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/cookies/page": "/cookies",
+  "/get-started/page": "/get-started",
+  "/page": "/",
+  "/privacypolicy/page": "/privacypolicy",
+  "/services/digital-marketing/page": "/services/digital-marketing",
+  "/services/page": "/services",
+  "/services/video-editing/page": "/services/video-editing",
+  "/services/web-development/page": "/services/web-development",
+  "/terms/page": "/terms"
+}
