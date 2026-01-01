@@ -1,7 +1,73 @@
-[00:00:02.415] Server  LOG      ✓ Ready in 1650ms
-[00:00:06.206] Server  LOG      ○ Compiling / ...
-[00:00:08.034] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:10.278] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:06.461] Server  LOG      ✓ Ready in 5.5s
+[00:00:07.439] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.494] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.621] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:07.667] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:08.082] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:08.083] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:08.084] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:08.085] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:08.108] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\dev\middleware-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:08.120] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\dev\hot-reloader-turbopack.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:08.121] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\lib\router-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:08.131] Server  ERROR   D:\download\drople-website-build\node_modules\next\dist\server\lib\start-server.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:10.001] Server  LOG      ○ Compiling /about ...
+[00:00:20.948] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:22.648] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <LoadingBoundary name="about/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/about" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="about/page...">
+                <SegmentTrieNode>
+                <ClientPageRoot Component={function About} serverProvidedParams={{...}}>
+                  <About params={Promise} searchParams={Promise}>
+                    <main>
+                      <section>
+                      <section>
+                      <section>
+                      <section className="relative p...">
+                        <div className="container ...">
+                          <div>
+                          <div className="grid grid-...">
+                            <MusabKhadim>
+>                             <a
+>                               href="https://musabkhadim.netlify.app/"
+>                               target="_blank"
+>                               rel="noopener noreferrer"
+>                               className="jsx-7b164af89b87ddf3 block group relative w-full max-w-lg mx-auto perspecti..."
+>                             >
+                                <div className="jsx-7b164a...">
+                                  <div>
+                                  <div className="jsx-7b164a...">
+                                    <div>
+                                    <div>
+                                    <div className="jsx-7b164a...">
+                                      <div>
+                                      <p>
+                                      <div onClick={function onClick} className="jsx-7b164a...">
+>                                       <a
+>                                         href="https://musabkhadim.netlify.app/"
+>                                         target="_blank"
+>                                         rel="noopener noreferrer"
+>                                         title="Portfolio"
+>                                         className="jsx-7b164af89b87ddf3 group/social relative w-11 h-11 flex items-c..."
+>                                       >
+                                        ...
+                                    ...
+                                ...
+                            ...
+                      ...
+              ...
+            ...
+
+[00:00:22.648] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:00:22.648] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -11,855 +77,153 @@
 
 It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
 
-%s%s https://react.dev/link/hydration-mismatch 
+https://react.dev/link/hydration-mismatch
 
   ...
-    <LoadingBoundary name="/" loading={null}>
-      <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
-        <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
-          <RedirectBoundary>
-            <RedirectErrorBoundary router={{...}}>
-              <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
-                <SegmentViewNode type="page" pagePath="page.tsx">
-                  <SegmentTrieNode>
-                  <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
-                    <Home params={Promise} searchParams={Promise}>
-                      <main className="relative">
-                        <HeroSection>
-                        <ServicesOverview>
-                        <PortfolioSections>
-                          <section className="jsx-87e38c...">
-                            <div>
-                            <div className="jsx-87e38c...">
-                              <div
-                                style={{
-+                                 width: "11.522941711991873px"
--                                 width: "13.0602px"
-+                                 height: "23.22228027876458px"
--                                 height: "10.7339px"
-+                                 left: "53.09695600175366%"
--                                 left: "47.3539%"
-+                                 top: "51.85096128727772%"
--                                 top: "46.1486%"
-+                                 animation: "float3D 22.466042963067594s ease-in-out infinite"
-+                                 animationDelay: "0.9560710011083579s"
-+                                 opacity: 0.3
--                                 opacity: "0.3"
-+                                 transformStyle: "preserve-3d"
-+                                 boxShadow: "0 0 20px rgba(163, 198, 196, 0.1)"
--                                 animation-duration: "21.9173s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float3D"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "4.90361s"
--                                 transform-style: "preserve-3d"
--                                 box-shadow: "rgba(163, 198, 196, 0.1) 0px 0px 20px"
-                                }}
-                                className="jsx-87e38c73c129d1e2 absolute rounded-full bg-gradient-to-br from-[#A3C6C4]..."
-                              >
-                              <div
-                                style={{
-+                                 width: "13.895605050403436px"
--                                 width: "12.9814px"
-+                                 height: "10.712669184325648px"
--                                 height: "21.6369px"
-+                                 left: "14.484577405006494%"
--                                 left: "97.2375%"
-+                                 top: "58.07522225970258%"
--                                 top: "88.4785%"
-+                                 animation: "float3D 17.43991533632176s ease-in-out infinite"
-+                                 animationDelay: "2.7564701736768353s"
-+                                 opacity: 0.3
--                                 opacity: "0.3"
-+                                 transformStyle: "preserve-3d"
-+                                 boxShadow: "0 0 20px rgba(163, 198, 196, 0.1)"
--                                 animation-duration: "15.1942s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float3D"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "3.6931s"
--                                 transform-style: "preserve-3d"
--                                 box-shadow: "rgba(163, 198, 196, 0.1) 0px 0px 20px"
-                                }}
-                                className="jsx-87e38c73c129d1e2 absolute rounded-full bg-gradient-to-br from-[#A3C6C4]..."
-                              >
-                              <div
-                                style={{
-+                                 width: "10.886152871601622px"
--                                 width: "13.1144px"
-+                                 height: "11.580356830568945px"
--                                 height: "16.9065px"
-+                                 left: "45.04522563508589%"
--                                 left: "24.3612%"
-+                                 top: "1.519565763659525%"
--                                 top: "24.379%"
-+                                 animation: "float3D 24.467438052587408s ease-in-out infinite"
-+                                 animationDelay: "3.3975498725147792s"
-+                                 opacity: 0.3
--                                 opacity: "0.3"
-+                                 transformStyle: "preserve-3d"
-+                                 boxShadow: "0 0 20px rgba(163, 198, 196, 0.1)"
--                                 animation-duration: "33.553s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float3D"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "3.61051s"
--                                 transform-style: "preserve-3d"
--                                 box-shadow: "rgba(163, 198, 196, 0.1) 0px 0px 20px"
-                                }}
-                                className="jsx-87e38c73c129d1e2 absolute rounded-full bg-gradient-to-br from-[#A3C6C4]..."
-                              >
-                              <div
-                                style={{
-+                                 width: "16.729788928256724px"
--                                 width: "14.5442px"
-+                                 height: "13.763503351333135px"
--                                 height: "16.9511px"
-+                                 left: "48.67926009436852%"
--                                 left: "47.8624%"
-+                                 top: "75.29258709895294%"
--                                 top: "5.50736%"
-+                                 animation: "float3D 32.33299807369721s ease-in-out infinite"
-+                                 animationDelay: "0.46832048851413344s"
-+                                 opacity: 0.3
--                                 opacity: "0.3"
-+                                 transformStyle: "preserve-3d"
-+                                 boxShadow: "0 0 20px rgba(163, 198, 196, 0.1)"
--                                 animation-duration: "15.7874s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float3D"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "0.995999s"
--                                 transform-style: "preserve-3d"
--                                 box-shadow: "rgba(163, 198, 196, 0.1) 0px 0px 20px"
-                                }}
-                                className="jsx-87e38c73c129d1e2 absolute rounded-full bg-gradient-to-br from-[#A3C6C4]..."
-                              >
-                              <div
-                                style={{
-+                                 width: "21.959248333814323px"
--                                 width: "17.2959px"
-+                                 height: "12.707108784183509px"
--                                 height: "13.1578px"
-+                                 left: "90.59197929516654%"
--                                 left: "31.7949%"
-+                                 top: "24.381887526278124%"
--                                 top: "23.0064%"
-+                                 animation: "float3D 34.53161081183535s ease-in-out infinite"
-+                                 animationDelay: "0.9789846941373259s"
-+                                 opacity: 0.3
--                                 opacity: "0.3"
-+                                 transformStyle: "preserve-3d"
-+                                 boxShadow: "0 0 20px rgba(163, 198, 196, 0.1)"
--                                 animation-duration: "15.7804s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float3D"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "4.5757s"
--                                 transform-style: "preserve-3d"
--                                 box-shadow: "rgba(163, 198, 196, 0.1) 0px 0px 20px"
-                                }}
-                                className="jsx-87e38c73c129d1e2 absolute rounded-full bg-gradient-to-br from-[#A3C6C4]..."
-                              >
-                              <div
-                                style={{
-+                                 width: "16.427997217999625px"
--                                 width: "15.5048px"
-+                                 height: "13.593200540448969px"
--                                 height: "18.591px"
-+                                 left: "70.96239204101263%"
--                                 left: "16.6891%"
-+                                 top: "71.52743637115799%"
--                                 top: "53.4534%"
-+                                 animation: "float3D 17.12265577910012s ease-in-out infinite"
-+                                 animationDelay: "4.73579842794655s"
-+                                 opacity: 0.3
--                                 opacity: "0.3"
-+                                 transformStyle: "preserve-3d"
-+                                 boxShadow: "0 0 20px rgba(163, 198, 196, 0.1)"
--                                 animation-duration: "35.5278s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float3D"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "0.923835s"
--                                 transform-style: "preserve-3d"
--                                 box-shadow: "rgba(163, 198, 196, 0.1) 0px 0px 20px"
-                                }}
-                                className="jsx-87e38c73c129d1e2 absolute rounded-full bg-gradient-to-br from-[#A3C6C4]..."
-                              >
-                              <div
-                                style={{
-+                                 width: "13.23051479344744px"
--                                 width: "15.2103px"
-+                                 height: "23.181151414858395px"
--                                 height: "22.1781px"
-+                                 left: "12.955295619948847%"
--                                 left: "27.3236%"
-+                                 top: "28.40451641977375%"
--                                 top: "6.79135%"
-+                                 animation: "float3D 21.012497330635206s ease-in-out infinite"
-+                                 animationDelay: "0.983252691674027s"
-+                                 opacity: 0.3
--                                 opacity: "0.3"
-+                                 transformStyle: "preserve-3d"
-+                                 boxShadow: "0 0 20px rgba(163, 198, 196, 0.1)"
--                                 animation-duration: "35.9041s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float3D"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "2.85959s"
--                                 transform-style: "preserve-3d"
--                                 box-shadow: "rgba(163, 198, 196, 0.1) 0px 0px 20px"
-                                }}
-                                className="jsx-87e38c73c129d1e2 absolute rounded-full bg-gradient-to-br from-[#A3C6C4]..."
-                              >
-                              <div
-                                style={{
-+                                 width: "14.839258249754234px"
--                                 width: "22.9731px"
-+                                 height: "18.600782058472195px"
--                                 height: "13.4009px"
-+                                 left: "62.41075245698931%"
--                                 left: "27.9726%"
-+                                 top: "65.6841951033447%"
--                                 top: "91.0649%"
-+                                 animation: "float3D 36.9953174568313s ease-in-out infinite"
-+                                 animationDelay: "3.4260111452466053s"
-+                                 opacity: 0.3
--                                 opacity: "0.3"
-+                                 transformStyle: "preserve-3d"
-+                                 boxShadow: "0 0 20px rgba(163, 198, 196, 0.1)"
--                                 animation-duration: "21.242s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float3D"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "4.47603s"
--                                 transform-style: "preserve-3d"
--                                 box-shadow: "rgba(163, 198, 196, 0.1) 0px 0px 20px"
-                                }}
-                                className="jsx-87e38c73c129d1e2 absolute rounded-full bg-gradient-to-br from-[#A3C6C4]..."
-                              >
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/about" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="poppins_52ca281-module__qdtoBq__className antialiased"
+-                           cz-shortcut-listen="true"
+                          >
                             ...
-                              <div ref={{current:null}} style={{height:"380px", ...}} className="jsx-87e38c...">
-                                <div data-index={0} ...>
-                                  <div className="w-full h-f..." style={{...}}>
-                                    <div>
-                                    <div>
-                                    <div className="absolute i..." style={{...}}>
-                                      <iframe
-                                        ref={function PortfolioSections.useCallback[renderVideoCards]}
-+                                       src={"https://www.youtube.com/embed/7-DMYomzCrE?rel=0&modestbranding=1&iv_loa..."}
--                                       src={"https://www.youtube.com/embed/7-DMYomzCrE?rel=0&modestbranding=1&iv_loa..."}
-                                        className="w-full h-full object-cover transform-gpu"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; p..."
-                                        allowFullScreen={true}
-                                        title={"Reel & Short Video"}
-                                        style={{transform:"translateZ...",backfaceVisibility:"hidden",pointerEvents:"auto"}}
-                                      >
-                                      ...
+                              <div className="grid grid-...">
+                                <MusabKhadim>
+                                  <a href="https://mu..." target="_blank" rel="noopener n..." className="jsx-7b164a...">
++                                   <div
++                                     className="jsx-7b164af89b87ddf3 relative transform-3d transition-all duration-70..."
++                                   >
                                     ...
-                                  ...
-                                <div data-index={1} ...>
-                                  <div className="w-full h-f..." style={{...}}>
-                                    <div>
-                                    <div>
-                                    <div className="absolute i..." style={{...}}>
-                                      <iframe
-                                        ref={function PortfolioSections.useCallback[renderVideoCards]}
-+                                       src={"https://www.youtube.com/embed/EKd4nsBlLSY?rel=0&modestbranding=1&iv_loa..."}
--                                       src={"https://www.youtube.com/embed/EKd4nsBlLSY?rel=0&modestbranding=1&iv_loa..."}
-                                        className="w-full h-full object-cover transform-gpu"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; p..."
-                                        allowFullScreen={true}
-                                        title={" Before After "}
-                                        style={{transform:"translateZ...",backfaceVisibility:"hidden",pointerEvents:"auto"}}
-                                      >
-                                      ...
-                                    ...
-                                  ...
-                                <div data-index={2} ...>
-                                  <div className="w-full h-f..." style={{...}}>
-                                    <div>
-                                    <div>
-                                    <div className="absolute i..." style={{...}}>
-                                      <iframe
-                                        ref={function PortfolioSections.useCallback[renderVideoCards]}
-+                                       src={"https://www.youtube.com/embed/DQ27fIwt8lo?rel=0&modestbranding=1&iv_loa..."}
--                                       src={"https://www.youtube.com/embed/DQ27fIwt8lo?rel=0&modestbranding=1&iv_loa..."}
-                                        className="w-full h-full object-cover transform-gpu"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; p..."
-                                        allowFullScreen={true}
-                                        title="Brand Story"
-                                        style={{transform:"translateZ...",backfaceVisibility:"hidden",pointerEvents:"auto"}}
-                                      >
-                                      ...
-                                    ...
-                                  ...
-                                <div data-index={3} ...>
-                                  <div className="w-full h-f..." style={{...}}>
-                                    <div>
-                                    <div>
-                                    <div className="absolute i..." style={{...}}>
-                                      <iframe
-                                        ref={function PortfolioSections.useCallback[renderVideoCards]}
-+                                       src={"https://www.youtube.com/embed/wX1BBfRMfEY?rel=0&modestbranding=1&iv_loa..."}
--                                       src={"https://www.youtube.com/embed/wX1BBfRMfEY?rel=0&modestbranding=1&iv_loa..."}
-                                        className="w-full h-full object-cover transform-gpu"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; p..."
-                                        allowFullScreen={true}
-                                        title="Anime Video"
-                                        style={{transform:"translateZ...",backfaceVisibility:"hidden",pointerEvents:"auto"}}
-                                      >
-                                      ...
-                                    ...
-                                  ...
-                                <div data-index={4} ...>
-                                  <div className="w-full h-f..." style={{...}}>
-                                    <div>
-                                    <div>
-                                    <div className="absolute i..." style={{...}}>
-                                      <iframe
-                                        ref={function PortfolioSections.useCallback[renderVideoCards]}
-+                                       src={"https://www.youtube.com/embed/LAJZBD14PX0?rel=0&modestbranding=1&iv_loa..."}
--                                       src={"https://www.youtube.com/embed/LAJZBD14PX0?rel=0&modestbranding=1&iv_loa..."}
-                                        className="w-full h-full object-cover transform-gpu"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; p..."
-                                        allowFullScreen={true}
-                                        title="Documentary video"
-                                        style={{transform:"translateZ...",backfaceVisibility:"hidden",pointerEvents:"auto"}}
-                                      >
-                                      ...
-                                    ...
-                                  ...
-                                <div data-index={5} ...>
-                                  <div className="w-full h-f..." style={{...}}>
-                                    <div>
-                                    <div>
-                                    <div className="absolute i..." style={{...}}>
-                                      <iframe
-                                        ref={function PortfolioSections.useCallback[renderVideoCards]}
-+                                       src={"https://www.youtube.com/embed/_-G8tyi3nr4?rel=0&modestbranding=1&iv_loa..."}
--                                       src={"https://www.youtube.com/embed/_-G8tyi3nr4?rel=0&modestbranding=1&iv_loa..."}
-                                        className="w-full h-full object-cover transform-gpu"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; p..."
-                                        allowFullScreen={true}
-                                        title={" Advertisement video"}
-                                        style={{transform:"translateZ...",backfaceVisibility:"hidden",pointerEvents:"auto"}}
-                                      >
-                                      ...
-                                    ...
-                                  ...
-                                <div data-index={6} ...>
-                                  <div className="w-full h-f..." style={{...}}>
-                                    <div>
-                                    <div>
-                                    <div className="absolute i..." style={{...}}>
-                                      <iframe
-                                        ref={function PortfolioSections.useCallback[renderVideoCards]}
-+                                       src={"https://www.youtube.com/embed/N_ze7bQykec?rel=0&modestbranding=1&iv_loa..."}
--                                       src={"https://www.youtube.com/embed/N_ze7bQykec?rel=0&modestbranding=1&iv_loa..."}
-                                        className="w-full h-full object-cover transform-gpu"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; p..."
-                                        allowFullScreen={true}
-                                        title="Youtube Content"
-                                        style={{transform:"translateZ...",backfaceVisibility:"hidden",pointerEvents:"auto"}}
-                                      >
-                                      ...
-                                    ...
-                                  ...
-                                <div data-index={7} ...>
-                                  <div className="w-full h-f..." style={{...}}>
-                                    <div>
-                                    <div>
-                                    <div className="absolute i..." style={{...}}>
-                                      <iframe
-                                        ref={function PortfolioSections.useCallback[renderVideoCards]}
-+                                       src={"https://www.youtube.com/embed/Pfol_fC2FmE?rel=0&modestbranding=1&iv_loa..."}
--                                       src={"https://www.youtube.com/embed/Pfol_fC2FmE?rel=0&modestbranding=1&iv_loa..."}
-                                        className="w-full h-full object-cover transform-gpu"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; p..."
-                                        allowFullScreen={true}
-                                        title="VSL"
-                                        style={{transform:"translateZ...",backfaceVisibility:"hidden",pointerEvents:"auto"}}
-                                      >
-                                      ...
-                                    ...
-                                  ...
-                                <div data-index={8} ...>
-                                  <div className="w-full h-f..." style={{...}}>
-                                    <div>
-                                    <div>
-                                    <div className="absolute i..." style={{...}}>
-                                      <iframe
-                                        ref={function PortfolioSections.useCallback[renderVideoCards]}
-+                                       src={"https://www.youtube.com/embed/9bZkp7q19f0?rel=0&modestbranding=1&iv_loa..."}
--                                       src={"https://www.youtube.com/embed/9bZkp7q19f0?rel=0&modestbranding=1&iv_loa..."}
-                                        className="w-full h-full object-cover transform-gpu"
-                                        frameBorder="0"
-                                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; p..."
-                                        allowFullScreen={true}
-                                        title="Commercial Ad"
-                                        style={{transform:"translateZ...",backfaceVisibility:"hidden",pointerEvents:"auto"}}
-                                      >
-                                      ...
-                                    ...
-                                  ...
-                            ...
-                        <ProcessTimeline>
-                          <section ref={{current:null}} className="jsx-3b99ec...">
-                            <div className="jsx-3b99ec...">
-                              <div
-                                style={{
-+                                 width: "3.2377281623600296px"
--                                 width: "5.9688px"
-+                                 height: "4.079878387199696px"
--                                 height: "4.2154px"
-+                                 left: "52.0744909177923%"
--                                 left: "47.3815%"
-+                                 top: "47.46512940337853%"
--                                 top: "19.9763%"
-+                                 animation: "float 10.299748857894999s ease-in-out infinite"
-+                                 animationDelay: "0.648974093626191s"
--                                 animation-duration: "6.30367s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "1.62994s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "7.844167332742532px"
--                                 width: "5.37745px"
-+                                 height: "5.882528349579332px"
--                                 height: "2.31176px"
-+                                 left: "76.1425568755976%"
--                                 left: "14.9245%"
-+                                 top: "91.55574502266552%"
--                                 top: "50.5335%"
-+                                 animation: "float 10.626867996563824s ease-in-out infinite"
-+                                 animationDelay: "0.9094548318810125s"
--                                 animation-duration: "6.42651s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "1.53868s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "3.5519044165939997px"
--                                 width: "7.95397px"
-+                                 height: "6.494661000379415px"
--                                 height: "2.13219px"
-+                                 left: "80.85233210738132%"
--                                 left: "77.4497%"
-+                                 top: "28.972890744144074%"
--                                 top: "66.4001%"
-+                                 animation: "float 10.375414881213741s ease-in-out infinite"
-+                                 animationDelay: "1.9858820960864012s"
--                                 animation-duration: "9.04028s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "0.637946s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "6.399715986684306px"
--                                 width: "7.71088px"
-+                                 height: "2.12527865400086px"
--                                 height: "6.01891px"
-+                                 left: "36.149738841693335%"
--                                 left: "97.3443%"
-+                                 top: "56.62097675381415%"
--                                 top: "51.6018%"
-+                                 animation: "float 6.218362608993507s ease-in-out infinite"
-+                                 animationDelay: "1.8787275314885477s"
--                                 animation-duration: "11.8014s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "1.55728s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "4.751353870756153px"
--                                 width: "4.87442px"
-+                                 height: "5.162447463548006px"
--                                 height: "6.69482px"
-+                                 left: "93.04045576805383%"
--                                 left: "93.4116%"
-+                                 top: "58.33998907349355%"
--                                 top: "42.6057%"
-+                                 animation: "float 7.776146186999702s ease-in-out infinite"
-+                                 animationDelay: "0.8142578058989078s"
--                                 animation-duration: "12.6639s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "0.354789s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "3.2944551031113036px"
--                                 width: "5.06379px"
-+                                 height: "5.28091514016373px"
--                                 height: "3.13617px"
-+                                 left: "78.79264901628446%"
--                                 left: "44.7019%"
-+                                 top: "25.393641147820965%"
--                                 top: "64.4399%"
-+                                 animation: "float 9.53595349778637s ease-in-out infinite"
-+                                 animationDelay: "0.9452512942756841s"
--                                 animation-duration: "6.12999s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "0.784326s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "2.493403515322384px"
--                                 width: "2.45944px"
-+                                 height: "2.140677515243503px"
--                                 height: "2.08077px"
-+                                 left: "23.231865859440305%"
--                                 left: "17.4715%"
-+                                 top: "61.96007299724289%"
--                                 top: "60.0544%"
-+                                 animation: "float 9.538576919051389s ease-in-out infinite"
-+                                 animationDelay: "1.5867317064851734s"
--                                 animation-duration: "8.22321s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "0.9952s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "2.6477074367532865px"
--                                 width: "2.35859px"
-+                                 height: "2.166775352265133px"
--                                 height: "4.10021px"
-+                                 left: "62.84956617055981%"
--                                 left: "56.1034%"
-+                                 top: "74.03822068323876%"
--                                 top: "14.4091%"
-+                                 animation: "float 7.199366789509419s ease-in-out infinite"
-+                                 animationDelay: "1.075127618813036s"
--                                 animation-duration: "7.36483s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "0.140052s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "3.096475246938377px"
--                                 width: "3.23838px"
-+                                 height: "4.397799554582819px"
--                                 height: "2.65355px"
-+                                 left: "38.148524294787855%"
--                                 left: "99.2586%"
-+                                 top: "92.33789348615312%"
--                                 top: "11.3555%"
-+                                 animation: "float 6.812536805104199s ease-in-out infinite"
-+                                 animationDelay: "1.8084895770232368s"
--                                 animation-duration: "8.2453s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "0.741666s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "6.927343262204424px"
--                                 width: "6.10534px"
-+                                 height: "5.314304627982789px"
--                                 height: "4.89566px"
-+                                 left: "2.136163140933478%"
--                                 left: "5.85202%"
-+                                 top: "62.98313332410685%"
--                                 top: "21.9436%"
-+                                 animation: "float 9.272259522191202s ease-in-out infinite"
-+                                 animationDelay: "0.4139432883477372s"
--                                 animation-duration: "8.22496s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "1.77566s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "6.01933882166692px"
--                                 width: "3.2113px"
-+                                 height: "3.780352232419844px"
--                                 height: "2.71221px"
-+                                 left: "24.48415598597341%"
--                                 left: "0.985207%"
-+                                 top: "96.6559589919766%"
--                                 top: "57.2763%"
-+                                 animation: "float 12.923314461361421s ease-in-out infinite"
-+                                 animationDelay: "1.170477179643537s"
--                                 animation-duration: "6.32717s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "1.28363s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "7.387174375859942px"
--                                 width: "5.01151px"
-+                                 height: "5.708472917404002px"
--                                 height: "5.41707px"
-+                                 left: "76.75360141386575%"
--                                 left: "78.4692%"
-+                                 top: "24.16835313661173%"
--                                 top: "45.4174%"
-+                                 animation: "float 11.961316374605524s ease-in-out infinite"
-+                                 animationDelay: "1.0507996134591893s"
--                                 animation-duration: "9.96715s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "0.00186063s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "4.565463781016554px"
--                                 width: "2.14735px"
-+                                 height: "7.811508733784285px"
--                                 height: "4.51433px"
-+                                 left: "97.73343059682786%"
--                                 left: "17.1407%"
-+                                 top: "99.28829613676112%"
--                                 top: "11.4687%"
-+                                 animation: "float 6.5202780541892045s ease-in-out infinite"
-+                                 animationDelay: "1.7179084321818279s"
--                                 animation-duration: "7.64114s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "0.480033s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "5.024731605214125px"
--                                 width: "4.20923px"
-+                                 height: "2.4261946327165966px"
--                                 height: "3.74403px"
-+                                 left: "65.97669402967334%"
--                                 left: "43.0236%"
-+                                 top: "81.53971929365403%"
--                                 top: "62.567%"
-+                                 animation: "float 12.682969739682328s ease-in-out infinite"
-+                                 animationDelay: "1.7104966338618326s"
--                                 animation-duration: "6.17537s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "1.91875s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              <div
-                                style={{
-+                                 width: "3.3231910822180093px"
--                                 width: "3.3823px"
-+                                 height: "5.924760060230799px"
--                                 height: "5.52571px"
-+                                 left: "73.24116399959523%"
--                                 left: "62.2308%"
-+                                 top: "64.7391644162721%"
--                                 top: "75.7219%"
-+                                 animation: "float 7.089347109660595s ease-in-out infinite"
-+                                 animationDelay: "1.0030973023009258s"
--                                 animation-duration: "9.0969s"
--                                 animation-timing-function: "ease-in-out"
--                                 animation-iteration-count: "infinite"
--                                 animation-direction: "normal"
--                                 animation-fill-mode: "none"
--                                 animation-play-state: "running"
--                                 animation-name: "float"
--                                 animation-timeline: "auto"
--                                 animation-range-start: "normal"
--                                 animation-range-end: "normal"
--                                 animation-delay: "1.2795s"
-                                }}
-                                className="jsx-3b99ec8f78021521 absolute rounded-full bg-[#1C3F57]/5"
-                              >
-                              ...
-                            ...
-                        ...
-                ...
-              ...
+                                ...
+                  ...
 
-[00:00:10.278] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:10.278] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:10.278] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1767165070445}
+[00:00:22.858] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:22.858] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/about","route":"/about"}
+[00:00:22.858] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/about","route":"/about"}
+[00:00:22.858] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1767255394088}
+[00:00:22.858] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1767255394089}
+[00:01:47.788] Server  LOG      ✓ Compiled in 553ms
+[00:02:21.132] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:22.158] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <LoadingBoundary name="about/" loading={null}>
+      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/about" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="about/page...">
+                <SegmentTrieNode>
+                <ClientPageRoot Component={function About} serverProvidedParams={{...}}>
+                  <About params={Promise} searchParams={Promise}>
+                    <main>
+                      <section>
+                      <section>
+                      <section>
+                      <section className="relative p...">
+                        <div className="container ...">
+                          <div>
+                          <div className="grid grid-...">
+                            <MusabKhadim>
+>                             <a
+>                               href="https://musabkhadim.netlify.app/"
+>                               target="_blank"
+>                               rel="noopener noreferrer"
+>                               className="jsx-7b164af89b87ddf3 block group relative w-full max-w-lg mx-auto perspecti..."
+>                             >
+                                <div className="jsx-7b164a...">
+                                  <div>
+                                  <div className="jsx-7b164a...">
+                                    <div>
+                                    <div>
+                                    <div className="jsx-7b164a...">
+                                      <div>
+                                      <p>
+                                      <div onClick={function onClick} className="jsx-7b164a...">
+>                                       <a
+>                                         href="https://musabkhadim.netlify.app/"
+>                                         target="_blank"
+>                                         rel="noopener noreferrer"
+>                                         title="Portfolio"
+>                                         className="jsx-7b164af89b87ddf3 group/social relative w-11 h-11 flex items-c..."
+>                                       >
+                                        ...
+                                    ...
+                                ...
+                            ...
+                      ...
+              ...
+            ...
+
+[00:02:22.158] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:02:22.158] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/about" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+                            className="poppins_52ca281-module__qdtoBq__className antialiased"
+-                           cz-shortcut-listen="true"
+                          >
+                            ...
+                              <div className="grid grid-...">
+                                <MusabKhadim>
+                                  <a href="https://mu..." target="_blank" rel="noopener n..." className="jsx-7b164a...">
++                                   <div
++                                     className="jsx-7b164af89b87ddf3 relative transform-3d transition-all duration-70..."
++                                   >
+                                    ...
+                                ...
+                  ...
+
+[00:02:22.260] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:22.261] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/about","route":"/about"}
+[00:02:22.261] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/about","route":"/about"}
+[00:02:22.261] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1767255513589}
+[00:02:22.261] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/about color: rgb(120, 120, 120) color: inherit {"dp":"/about","o":"http://localhost:3000/about","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1767255513590}
+[00:02:27.589] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:02:27.589] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1767255517271}

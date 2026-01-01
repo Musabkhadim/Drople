@@ -313,14 +313,14 @@ function Navbar() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                                     src: "/logo.png",
                                     alt: "Logo",
-                                    className: "w-6 h-6 md:w-12 md:h-12 object-contain"
+                                    className: "w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 object-contain"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
                                     lineNumber: 91,
                                     columnNumber: 11
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: `font-bold text-[#1B3C53] hidden sm:inline transition-all duration-200 ${scrolled ? "text-lg" : "text-xl"}`,
+                                    className: `font-bold text-[#1B3C53] inline transition-all duration-200 ${scrolled ? "text-sm sm:text-lg" : "text-base sm:text-xl"}`,
                                     children: "DROPLE"
                                 }, void 0, false, {
                                     fileName: "[project]/components/navbar.tsx",
@@ -655,7 +655,8 @@ function BackgroundAnimations() {
             canvas.width = window.innerWidth;
             canvas.height = window.innerHeight;
             const particles = [];
-            const particleCount = 50;
+            const particleCount = 25 // Reduced from 50
+            ;
             // Create particles
             for(let i = 0; i < particleCount; i++){
                 particles.push({
@@ -669,6 +670,10 @@ function BackgroundAnimations() {
             }
             const animate = {
                 "BackgroundAnimations.useEffect.animate": ()=>{
+                    if (document.hidden) {
+                        requestAnimationFrame(animate);
+                        return;
+                    }
                     ctx.clearRect(0, 0, canvas.width, canvas.height);
                     // Draw particles
                     particles.forEach({
@@ -710,7 +715,7 @@ function BackgroundAnimations() {
         }
     }, void 0, false, {
         fileName: "[project]/components/background-animations.tsx",
-        lineNumber: 76,
+        lineNumber: 80,
         columnNumber: 5
     }, this);
 }

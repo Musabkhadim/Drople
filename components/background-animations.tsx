@@ -25,7 +25,7 @@ export function BackgroundAnimations() {
     }
 
     const particles: Particle[] = []
-    const particleCount = 50
+    const particleCount = 25 // Reduced from 50
 
     // Create particles
     for (let i = 0; i < particleCount; i++) {
@@ -40,6 +40,10 @@ export function BackgroundAnimations() {
     }
 
     const animate = () => {
+      if (document.hidden) {
+        requestAnimationFrame(animate)
+        return
+      }
       ctx.clearRect(0, 0, canvas.width, canvas.height)
 
       // Draw particles

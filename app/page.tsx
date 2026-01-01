@@ -1,6 +1,5 @@
 "use client"
 
-import { useEffect, useState } from "react"
 import HeroSection from "@/components/hero-section"
 import ServicesOverview from "@/components/services-overview"
 import CaseStudies from "@/components/case-studies"
@@ -11,12 +10,6 @@ import Footer from "@/components/footer"
 
 
 export default function Home() {
-  const [isLoaded, setIsLoaded] = useState(false)
-
-  useEffect(() => {
-    setIsLoaded(true)
-  }, [])
-
   return (
     <main className="relative">
       <HeroSection />

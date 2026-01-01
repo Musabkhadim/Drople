@@ -42,25 +42,25 @@ export default function Footer() {
               <p className="text-white/90">You've successfully subscribed to our newsletter.</p>
             </div>
           ) : (
-            <div className="grid md:grid-cols-2 gap-2 items-center">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6 items-center">
               <div>
-                <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
+                <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-white mb-2">
                   Stay Updated
                 </h3>
-                <p className="text-white/90">
+                <p className="text-white/90 text-sm sm:text-base">
                   Subscribe to our newsletter for latest updates.
                 </p>
               </div>
-              <form onSubmit={handleSubscribe} className="flex flex-col sm:flex-row gap-3">
+              <form onSubmit={handleSubscribe} className="flex flex-col xs:flex-row gap-3">
                 <input 
                   type="email" 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your email" 
                   required
-                  className="flex-1 px-5 py-3 rounded-full bg-white/20 border border-white/30 text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 backdrop-blur-sm"
+                  className="flex-1 px-4 sm:px-5 py-3 rounded-full bg-white/20 border border-white/30 text-white placeholder:text-white/60 focus:outline-none focus:ring-2 focus:ring-white/50 backdrop-blur-sm text-sm sm:text-base"
                 />
-                <button type="submit" className="px-6 py-3 rounded-full bg-white text-[#21445F] font-semibold hover:bg-white/90 transition-all duration-300 flex items-center justify-center gap-2 group">
+                <button type="submit" className="px-4 sm:px-6 py-3 rounded-full bg-white text-[#21445F] font-semibold hover:bg-white/90 transition-all duration-300 flex items-center justify-center gap-2 group text-sm sm:text-base">
                   Subscribe
                   <ArrowRight size={16} className="group-hover:translate-x-1 transition-transform" />
                 </button>

@@ -92,13 +92,13 @@ export default function Navbar() {
          src="/logo.png"
           alt="Logo"
     
-          className="w-6 h-6 md:w-12 md:h-12 object-contain"
+          className="w-8 h-8 sm:w-10 sm:h-10 md:w-12 md:h-12 object-contain"
     
   />
 
   <span
-    className={`font-bold text-[#1B3C53] hidden sm:inline transition-all duration-200 ${
-      scrolled ? "text-lg" : "text-xl"
+    className={`font-bold text-[#1B3C53] inline transition-all duration-200 ${
+      scrolled ? "text-sm sm:text-lg" : "text-base sm:text-xl"
     }`}
   >
     DROPLE
