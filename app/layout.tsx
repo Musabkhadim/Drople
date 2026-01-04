@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     "full stack development",
     "custom website design",
 
-    // Digital Marketing
+  
     "digital marketing services",
     "SEO services",
     "social media marketing",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     "email marketing",
     "online marketing",
 
-    // Video Editing
+    
     "video editing services",
     "professional video editor",
     "YouTube video editor",
@@ -68,7 +68,12 @@ export const metadata: Metadata = {
     "Musab Khadim portfolio",
      "Musab khadim Co-Founder of Drople",
      
-    
+    "web development services USA",
+    "digital marketing services Canada",
+    "video editing services USA",
+    "hire web developer United States",
+    "affordable digital marketing Canada",
+    "professional video editor USA"
 
   ],
    icons: {

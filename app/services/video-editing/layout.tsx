@@ -32,6 +32,16 @@ export const metadata = {
     "video editing services Pakistan",
     "Rawalpindi video editor",
     "video editor near me",
+    "video editing services USA",
+    "hire video editor United States",
+    "professional video production California",
+    "affordable video editing Canada",
+    "custom motion graphics Toronto",
+    "best YouTube video editor New York",
+    "professional video editor USA",
+    "USA documentary editing services",
+    "Toronto reels and shorts editing",
+    "Canada CapCut editor for hire"
   ],
   openGraph: {
     title: "Professional Video Editing Services | Drople",

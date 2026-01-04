@@ -51,7 +51,17 @@ export const metadata = {
     "hire Musab Khadim web developer",
     "hire Musab Khadim frontend developer",
     "hire Musab Khadim backend developer",
-    "hire Musab Khadim full stack developer"
+    "hire Musab Khadim full stack developer",
+    "web development services USA",
+    "hire web developer United States",
+    "website design company California",
+    "affordable web developer Canada",
+    "custom website development Toronto",
+    "best web development company New York",
+    "professional web developer USA",
+    "USA website design services",
+    "Toronto web development solutions",
+    "Canada web developer for hire"
   ],
   openGraph: {
     title: "Professional Web Development Services | Drople",

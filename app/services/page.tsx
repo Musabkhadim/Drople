@@ -4,6 +4,30 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { Code2, TrendingUp, Film } from "lucide-react"
 
+export const metadata = {
+  title: "Our Services - Web Development, Digital Marketing & Video Editing | Drople",
+  description: "Explore our comprehensive digital services: professional web development, strategic digital marketing, and expert video editing. Transform your business with Drople.",
+  keywords: [
+    "web development services",
+    "digital marketing services", 
+    "video editing services",
+    "professional web developer",
+    "digital marketing agency",
+    "video editing company",
+    "custom website development",
+    "SEO services",
+    "social media marketing",
+    "YouTube video editing",
+    "business digital solutions",
+    "web development USA",
+    "digital marketing Canada",
+    "video editing services USA",
+    "hire web developer United States",
+    "affordable digital marketing Canada",
+    "professional video editor USA"
+  ]
+}
+
 const services = [
   {
     icon: Code2,

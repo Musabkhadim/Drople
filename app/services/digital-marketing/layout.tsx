@@ -5,14 +5,14 @@ export const metadata = {
   description:
     "Comprehensive digital marketing solutions to grow your online presence. SEO, social media, content marketing, PPC, and branding strategies that deliver measurable results.",
   keywords: [
-    // Branding & Personal
+    
     "Drople digital agency",
     "Digital marketing services",
     "Digital marketing agency",
     "Professional digital marketer",
     "Digital marketing expert",
 
-    // SEO
+    
     "SEO optimization",
     "Keyword research",
     "On-page SEO",
@@ -22,7 +22,7 @@ export const metadata = {
     "YouTube SEO",
     "Content SEO",
 
-    // Social Media
+    
     "Social media marketing",
     "Social media strategy",
     "Content strategy",
@@ -33,7 +33,7 @@ export const metadata = {
     "LinkedIn marketing",
     "Social media campaigns",
 
-    // Content Marketing
+    
     "Content marketing",
     "Blog writing services",
     "Video content marketing",
@@ -42,7 +42,7 @@ export const metadata = {
     "Email automation",
     "Lead generation content",
 
-    // PPC / Paid Ads
+    
     "PPC campaigns",
     "Google Ads management",
     "Facebook Ads campaigns",
@@ -50,7 +50,7 @@ export const metadata = {
     "Campaign management",
     "Paid search marketing",
 
-    // Branding & Strategy
+    
     "Brand building",
     "Brand awareness campaigns",
     "Visual branding",
@@ -64,15 +64,24 @@ export const metadata = {
     "Conversion optimization",
     "Digital campaign ROI",
 
-    // Location / Service area
+    
     "Digital marketing Pakistan",
     "Islamabad digital marketing",
     "Marketing agency Pakistan",
     
-    // Call to Action
     "Hire digital marketing agency",
     "Hire digital marketing expert",
-    "Hire Drople for marketing"
+    "Hire Drople for marketing",
+    "digital marketing services USA",
+    "hire digital marketer United States",
+    "SEO company California",
+    "affordable digital marketing Canada",
+    "custom social media marketing Toronto",
+    "best PPC campaigns New York",
+    "professional digital marketer USA",
+    "USA content marketing services",
+    "Toronto brand growth strategies",
+    "Canada email marketing for hire"
   ],
   openGraph: {
     title: "Digital Marketing Services | Drople Agency",
